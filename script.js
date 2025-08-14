@@ -2,7 +2,7 @@
 document.getElementById('fetchData').addEventListener('click', async function() {
     try {
         // Fetch user data from the serverless function API
-        const response = await fetch('https://your-vercel-url/api'); // Replace with your actual API URL
+        const response = await fetch('https://user-rose-one.vercel.app/api'); // Replace with your actual API URL
         
         // Check if the response is OK (status code 200)
         if (!response.ok) {
